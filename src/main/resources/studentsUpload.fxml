@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="258.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="su.logix.studperformance.main.Controllers.StudentsUploadController">
+   <children>
+      <TextField fx:id="tfFile" layoutX="60.0" layoutY="74.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="64.0" AnchorPane.topAnchor="80.0" />
+      <Button focusTraversable="false" layoutX="540.0" layoutY="60.0" mnemonicParsing="false" onAction="#showFileDialog" prefWidth="20.0" text="..." AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="80.0" />
+      <Button focusTraversable="false" layoutX="510.0" layoutY="129.0" mnemonicParsing="false" onAction="#load" text="Загрузить" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="40.0" />
+      <Label layoutX="40.0" layoutY="34.0" text="Путь к файлу" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="55.0" />
+   </children>
+</AnchorPane>

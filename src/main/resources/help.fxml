@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="208.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="39.0" layoutY="29.0" prefHeight="17.0" prefWidth="524.0" text="Данная программа разработана с целью контроля успеваемости и посещаемости студентов" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="40.0" />
+      <Label layoutX="39.0" layoutY="70.0" prefHeight="17.0" prefWidth="517.0" text="ФГБОУ ВО ДГМУ Минздрава России" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="65.0" />
+      <Label layoutX="39.0" layoutY="103.0" prefHeight="17.0" prefWidth="566.0" text="Ответственность за достоверность данных и своевременное их представление в " AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="90.0" />
+      <Label layoutX="39.0" layoutY="135.0" prefHeight="17.0" prefWidth="546.0" text="Управление Учебно-методической работы, статистики и контроля качества обучения" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="115.0" />
+      <Label layoutX="41.0" layoutY="164.0" prefHeight="17.0" prefWidth="536.0" text="несет заведующий кафедрой" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="140.0" />
+   </children>
+</AnchorPane>

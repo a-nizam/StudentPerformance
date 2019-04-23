@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<AnchorPane prefHeight="361.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="su.logix.studperformance.main.Controllers.MainController">
+    <children>
+        <Rectangle arcWidth="5.0" fill="#d4dbe1" height="336.0" layoutX="324.0" layoutY="24.0" stroke="WHITE"
+                   strokeType="INSIDE" strokeWidth="0.0" width="276.0" AnchorPane.bottomAnchor="0.0"
+                   AnchorPane.leftAnchor="324.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0"/>
+        <Button fx:id="btnSheet" layoutX="25.0" layoutY="70.0" mnemonicParsing="false" onAction="#fillSheet"
+                text="Заполнение аттестационных листов" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="70.0"/>
+        <Button fx:id="btnExport" layoutX="25.0" layoutY="120.0" mnemonicParsing="false" onAction="#exportCertification"
+                text="Выгрузка аттест. листов" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="110.0"/>
+        <Button fx:id="btnStudentsLoad" layoutX="25.0" layoutY="170.0" mnemonicParsing="false"
+                onAction="#uploadStudents" text="Загрузка списка студентов" AnchorPane.leftAnchor="25.0"
+                AnchorPane.topAnchor="150.0"/>
+        <Button fx:id="btnSubjectLoad" layoutX="25.0" layoutY="220.0" mnemonicParsing="false" onAction="#uploadUP"
+                text="Загрузка предметов" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="190.0"/>
+        <Label layoutX="414.0" layoutY="141.0" text="Вход в систему" AnchorPane.rightAnchor="89.0"
+               AnchorPane.topAnchor="141.0">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Label layoutX="358.0" layoutY="175.0" text="Логин" AnchorPane.rightAnchor="208.0"
+               AnchorPane.topAnchor="175.0"/>
+        <TextField fx:id="tfLogin" layoutX="351.0" layoutY="195.0" prefHeight="25.0" prefWidth="224.0"
+                   AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="195.0"/>
+        <Label layoutX="358.0" layoutY="226.0" text="Пароль" AnchorPane.rightAnchor="200.0"
+               AnchorPane.topAnchor="226.0"/>
+        <PasswordField fx:id="pfPass" layoutX="351.0" layoutY="245.0" prefHeight="25.0" prefWidth="224.0"
+                       AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="245.0"/>
+        <Button fx:id="btnLogin" defaultButton="true" layoutX="433.0" layoutY="230.0" mnemonicParsing="false"
+                onAction="#login" text="Войти" AnchorPane.bottomAnchor="42.0" AnchorPane.rightAnchor="108.0">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <MenuBar layoutY="2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <menus>
+                <Menu mnemonicParsing="false" text="Файл">
+                    <items>
+                        <MenuItem mnemonicParsing="false" onAction="#close" text="Выход"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Сервис">
+                    <items>
+                        <MenuItem fx:id="miSettings" mnemonicParsing="false" onAction="#showOptionsForm"
+                                  text="Настройки"/>
+                        <MenuItem mnemonicParsing="false" onAction="#showAdminForm" text="Администрирование"/>
+                    </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Справка">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="О программе"/>
+                        <MenuItem mnemonicParsing="false" onAction="#showHelpForm" text="Помощь"/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <ImageView fitHeight="86.0" fitWidth="103.0" layoutX="420.0" layoutY="40.0" pickOnBounds="true"
+                   preserveRatio="true">
+            <image>
+                <Image url="@logo.jpg"/>
+            </image>
+        </ImageView>
+        <Label layoutX="25.0" layoutY="239.0" text="Сроки проведения аттестаций" AnchorPane.leftAnchor="25.0"
+               AnchorPane.topAnchor="240.0"/>
+        <Label fx:id="lblCert1" layoutX="25.0" layoutY="268.0" text="1 аттестация" AnchorPane.leftAnchor="25.0"
+               AnchorPane.topAnchor="270.0"/>
+        <Label fx:id="lblCert2" layoutX="25.0" layoutY="296.0" text="2 аттестация" AnchorPane.leftAnchor="25.0"
+               AnchorPane.topAnchor="295.0"/>
+        <Label fx:id="lblCert3" layoutX="25.0" layoutY="319.0" text="3 аттестация" AnchorPane.leftAnchor="25.0"
+               AnchorPane.topAnchor="320.0"/>
+    </children>
+</AnchorPane>

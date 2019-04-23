@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b261b13-9ade-4a73-b509-a47158cfe093" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data.db3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data.db3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data.db3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="data.db3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="certification: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/sheet.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1309">
+              <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/SheetController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2380">
+              <caret line="158" column="6" selection-start-line="158" selection-start-column="6" selection-end-line="158" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/CertPreviewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>print</find>
+      <find>apac</find>
+      <find>login</find>
+      <find>семес</find>
+      <find>initSu</find>
+      <find>load</find>
+      <find>stud_secname</find>
+      <find>seme</find>
+      <find>erro</find>
+      <find>floa</find>
+      <find>cle</find>
+      <find>certid</find>
+      <find>commi</find>
+      <find>facu</find>
+      <find>fac</find>
+      <find>admin</find>
+      <find>olda</find>
+      <find>teach</find>
+      <find>tea</find>
+      <find>teac</find>
+      <find>lecture</find>
+      <find>give</find>
+      <find>getSele</find>
+      <find>initia</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/help.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Core/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/CertPreview.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/SubjectModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/StudentModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/FacultyModel.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/main.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/StudentsUploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/SubjectsUploadController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/connection/DBConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/certificationExport.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/KeyModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/OptionsModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/OptionsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/admin.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/options.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Core/FieldsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/CertificationExportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/CertificationModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/StudentsListModel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Main.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/sheet.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/certPreview.fxml" />
+        <option value="$PROJECT_DIR$/src/main/resources/docx4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/style.css" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/SheetController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/CertPreviewController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StudentPerformance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StudentPerformance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="StudentPerformance" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1370" />
+    <option name="height" value="776" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="StudentPerformance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentPerformance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentPerformance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentPerformance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentPerformance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentPerformance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentPerformance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentPerformance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentPerformance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentPerformance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentPerformance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentPerformance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentPerformance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentPerformance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="StudentPerformance" type="b2602c69:ProjectViewProjectNode" />
+              <item name="StudentPerformance" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555510590060" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.24367817" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user1-ivto\Desktop\java\StudentPerformance\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="StudentPerformance [exec:java]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="compile" />
+                <option value="exec:java" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b261b13-9ade-4a73-b509-a47158cfe093" name="Default Changelist" comment="" />
+      <created>1552305996026</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552305996026</updated>
+      <workItem from="1552305999957" duration="5523000" />
+      <workItem from="1552466766802" duration="1475000" />
+      <workItem from="1552476075796" duration="34507000" />
+      <workItem from="1552913054582" duration="1421000" />
+      <workItem from="1552979072091" duration="9491000" />
+      <workItem from="1553151447683" duration="583000" />
+      <workItem from="1553152059257" duration="34990000" />
+      <workItem from="1553430810533" duration="14849000" />
+      <workItem from="1553494157254" duration="17181000" />
+      <workItem from="1553589898668" duration="5811000" />
+      <workItem from="1553675457607" duration="5093000" />
+      <workItem from="1553847607621" duration="269000" />
+      <workItem from="1554208149008" duration="1764000" />
+      <workItem from="1554471264775" duration="915000" />
+      <workItem from="1554732812158" duration="939000" />
+      <workItem from="1554990385372" duration="1156000" />
+      <workItem from="1554991572293" duration="4308000" />
+      <workItem from="1555057105060" duration="69000" />
+      <workItem from="1555057568001" duration="11000" />
+      <workItem from="1555057585944" duration="670000" />
+      <workItem from="1555415742969" duration="9861000" />
+      <workItem from="1555921276632" duration="1433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="152319000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.1787649" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.23943663" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.16468039" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.1787649" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Maven" order="4" visible="true" weight="0.1337953" />
+      <window_info anchor="right" id="Database" order="5" weight="0.16151386" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.1748401" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="((SheetController)this).certId" custom="su.logix.studperformance.main.Controllers.SheetController" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>certId</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c40cfe34-1bf7-439c-96d6-2d71770b2af1/console.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/help.fxml" />
+    <entry file="das://c40cfe34-1bf7-439c-96d6-2d71770b2af1/collation/RTRIM" />
+    <entry file="file://$PROJECT_DIR$/StudentPerformance.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/docx4j/docx4j/6.1.1/docx4j-6.1.1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="513" column="24" selection-start-line="513" selection-start-column="24" selection-end-line="513" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/StudentPerformance:StudentPerformance:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>StudentPerformance:StudentPerformance:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">StudentPerformance:StudentPerformance:1.0-SNAPSHOT</node>
+            <node x="" y="">org.openjfx:javafx-controls:jar:win:11.0.2</node>
+            <node x="" y="">org.openjfx:javafx-controls:jar:win:11.0.2/org.openjfx:javafx-graphics:jar:11.0.2</node>
+            <node x="" y="">org.openjfx:javafx-fxml:jar:win:11.0.2</node>
+            <node x="" y="">org.openjfx:javafx-fxml:jar:win:11.0.2/org.openjfx:javafx-controls:jar:11.0.2</node>
+            <node x="" y="">org.openjfx:javafx-media:jar:win:11.0.2</node>
+            <node x="" y="">org.openjfx:javafx-graphics:jar:win:11.0.2</node>
+            <node x="" y="">org.openjfx:javafx-graphics:jar:win:11.0.2/org.openjfx:javafx-base:jar:11.0.2</node>
+            <node x="" y="">org.openjfx:javafx-graphics:jar:win:11.0.2/org.openjfx:javafx-base:jar:11.0.2/org.openjfx:javafx-base:jar:win:11.0.2</node>
+            <node x="" y="">org.xerial:sqlite-jdbc:jar:3.25.2</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.plutext:jaxb-svg11:jar:1.0.2</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/net.engio:mbassador:jar:1.2.4.2</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.slf4j:slf4j-log4j12:jar:1.7.25</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/log4j:log4j:jar:1.2.17</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.commons:commons-lang3:jar:3.5</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.commons:commons-compress:jar:1.12</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/commons-codec:commons-codec:jar:1.11</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/commons-io:commons-io:jar:2.5</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.httpcomponents:httpclient:jar:4.5.6</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.httpcomponents:httpclient:jar:4.5.6/org.apache.httpcomponents:httpcore:jar:4.4.10</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.httpcomponents:httpclient:jar:4.5.6/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/com.fasterxml.jackson.core:jackson-core:jar:2.7.9</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.4</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/com.fasterxml.jackson.core:jackson-databind:jar:2.7.9.4/com.fasterxml.jackson.core:jackson-annotations:jar:2.7.0</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.xmlgraphics:xmlgraphics-commons:jar:2.3</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.xmlgraphics:xmlgraphics-commons:jar:2.3/commons-io:commons-io:jar:1.3.1</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.avalon.framework:avalon-framework-api:jar:4.3.1</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.apache.avalon.framework:avalon-framework-impl:jar:4.3.1</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/xalan:xalan:jar:2.7.2</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/xalan:xalan:jar:2.7.2/xalan:serializer:jar:2.7.2</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/net.arnx:wmf2svg:jar:0.9.8</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.antlr:antlr-runtime:jar:3.5.2</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/org.antlr:stringtemplate:jar:3.2.1/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">org.docx4j:docx4j:jar:6.1.1/com.thedeanda:lorem:jar:2.1</node>
+            <node x="" y="">javax.xml.bind:jaxb-api:jar:2.3.1</node>
+            <node x="" y="">javax.xml.bind:jaxb-api:jar:2.3.1/javax.activation:javax.activation-api:jar:1.2.0</node>
+            <node x="" y="">com.sun.xml.bind:jaxb-core:jar:2.2.11</node>
+            <node x="" y="">com.sun.xml.bind:jaxb-impl:jar:2.3.2</node>
+            <node x="" y="">org.jetbrains:annotations:jar:16.0.3</node>
+            <node x="" y="">commons-codec:commons-codec:jar:1.12</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1176205341657997" x="1450.0" y="388.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-sources.jar!/javafx/fxml/FXMLLoader.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/StudentModel.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-sources.jar!/javafx/scene/control/TableColumn.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-sources.jar!/javafx/event/EventType.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-sources.jar!/javafx/scene/control/TableCell.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/11.0.2/javafx-controls-11.0.2-sources.jar!/javafx/scene/control/cell/CellUtils.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-sources.jar!/javafx/scene/Node.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-graphics/11.0.2/javafx-graphics-11.0.2-sources.jar!/javafx/scene/Scene.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-base/11.0.2/javafx-base-11.0.2-sources.jar!/javafx/event/Event.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-fxml/11.0.2/javafx-fxml-11.0.2-win.jar!/javafx/fxml/FXMLLoader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="451" column="2" selection-start-line="451" selection-start-column="2" selection-end-line="451" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="520" column="9" selection-start-line="520" selection-start-column="9" selection-end-line="520" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/main.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="75" column="45" lean-forward="true" selection-start-line="75" selection-start-column="45" selection-end-line="75" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/FacultyModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/SheetModel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/SubjectModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/KeyModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/certificationExport.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/SubjectsUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="136" column="21" selection-start-line="136" selection-start-column="21" selection-end-line="136" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/connection/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/OptionsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400">
+          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/OptionsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/admin.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/options.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Core/FieldsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="85" column="65" selection-start-line="85" selection-start-column="65" selection-end-line="85" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Core/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/CertificationExportController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="143" column="25" lean-forward="true" selection-start-line="143" selection-start-column="25" selection-end-line="143" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/StudentsUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Core/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/CertificationModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="140" column="35" selection-start-line="140" selection-start-column="35" selection-end-line="140" selection-end-column="35" />
+          <folding>
+            <element signature="e#11407#11408#0" expanded="true" />
+            <element signature="e#11444#11445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Models/StudentsListModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="57" column="74" selection-start-line="57" selection-start-column="74" selection-end-line="57" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/FXAppLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/certPreview.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="35" lean-forward="true" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/docx4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logging.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/sheet.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="77" column="37" selection-start-line="77" selection-start-column="37" selection-end-line="77" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/SheetController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="158" column="6" selection-start-line="158" selection-start-column="6" selection-end-line="158" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/su/logix/studperformance/main/Controllers/CertPreviewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="48" column="24" lean-forward="true" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>JavaFX</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>StudentPerformance</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24367817" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: commons-codec:commons-codec:1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24367817" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

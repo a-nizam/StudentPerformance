@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="530.0" prefWidth="1048.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="su.logix.studperformance.main.Controllers.SheetController">
+   <children>
+      <Label layoutX="554.0" layoutY="62.0" text="Факультет" AnchorPane.topAnchor="62.0" />
+      <Label layoutX="44.0" layoutY="62.0" text="№ аттестации" AnchorPane.topAnchor="62.0" />
+      <Label layoutX="306.0" layoutY="62.0" text="Год" AnchorPane.topAnchor="62.0" />
+      <Label layoutX="817.0" layoutY="62.0" text="Семестр" AnchorPane.topAnchor="62.0" />
+      <Label layoutX="40.0" layoutY="132.0" text="Группа" AnchorPane.topAnchor="132.0" />
+      <Label layoutX="306.0" layoutY="132.0" text="Предмет" AnchorPane.topAnchor="132.0" />
+       <ComboBox fx:id="cbCertNum" focusTraversable="false" layoutX="40.0" layoutY="87.0" onAction="#certNumChanged" prefWidth="150.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="87.0" />
+       <ComboBox fx:id="cbYear" focusTraversable="false" layoutX="306.0" layoutY="87.0" onAction="#yearChanged" prefWidth="150.0" AnchorPane.leftAnchor="306.0" AnchorPane.topAnchor="87.0" />
+      <ComboBox fx:id="cbFaculty" focusTraversable="false" layoutX="554.0" layoutY="87.0" onAction="#facultyChanged" prefWidth="150.0" AnchorPane.leftAnchor="554.0" AnchorPane.topAnchor="87.0" />
+      <ComboBox fx:id="cbSemester" focusTraversable="false" layoutX="817.0" layoutY="87.0" onAction="#semesterChanged" prefWidth="150.0" AnchorPane.leftAnchor="817.0" AnchorPane.topAnchor="87.0" />
+      <ComboBox fx:id="cbGroup" focusTraversable="false" layoutX="40.0" layoutY="157.0" onAction="#groupChanged" prefWidth="150.0" AnchorPane.leftAnchor="40.0" AnchorPane.topAnchor="157.0" />
+      <ComboBox fx:id="cbSubject" focusTraversable="false" layoutX="306.0" layoutY="157.0" onAction="#subjectChanged" prefWidth="150.0" AnchorPane.leftAnchor="306.0" AnchorPane.topAnchor="157.0" />
+      <TableView fx:id="tableStudentsList" editable="true" layoutX="53.0" layoutY="231.0" prefHeight="200.0" prefWidth="790.0" AnchorPane.bottomAnchor="100.0" AnchorPane.leftAnchor="40.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="230.0">
+        <columns>
+          <TableColumn fx:id="columnNum" prefWidth="41.0" text="№" />
+          <TableColumn fx:id="columnName" prefWidth="361.0" text="ФИО" />
+            <TableColumn fx:id="columnMark" minWidth="0.0" prefWidth="67.0" style="-fx-alignment: center;" text="Балл" />
+            <TableColumn fx:id="columnPracticeMissed" minWidth="0.0" prefWidth="125.0" style="-fx-alignment: center;" text="Практика (проп)" />
+            <TableColumn fx:id="columnPracticeCorrected" minWidth="0.0" prefWidth="129.0" style="-fx-alignment: center;" text="Практика (отраб)" />
+            <TableColumn fx:id="columnLecturesMissed" minWidth="0.0" prefWidth="113.0" style="-fx-alignment: center;" text="Лекции (проп)" />
+            <TableColumn fx:id="columnLecturesCorrected" minWidth="0.0" prefWidth="119.0" style="-fx-alignment: center;" text="Лекции (отраб)" />
+        </columns>
+      </TableView>
+      <Button focusTraversable="false" layoutX="934.0" layoutY="469.0" mnemonicParsing="false" onAction="#save" text="Сохранить" AnchorPane.bottomAnchor="36.0" AnchorPane.rightAnchor="40.0" />
+   </children>
+</AnchorPane>

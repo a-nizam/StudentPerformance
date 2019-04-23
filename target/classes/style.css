@@ -1,0 +1,11 @@
+
+.table-view:focused {
+    -fx-background-color: -fx-box-border, -fx-control-inner-background;
+    -fx-background-insets: 0, 1;
+    -fx-padding: 1;
+}
+
+.table-row-cell:focused {
+    -fx-background-color: derive(-fx-background, 20%), derive(-fx-cell-focus-inner-border, 20%), derive(-fx-background, 20%);
+    -fx-background-insets: 0, 1, 2;
+}
