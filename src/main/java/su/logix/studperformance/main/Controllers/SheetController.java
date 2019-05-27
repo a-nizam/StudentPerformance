@@ -9,7 +9,6 @@ import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.cell.TextFieldTableCell;
-import javafx.scene.input.KeyEvent;
 import javafx.util.converter.FloatStringConverter;
 import javafx.util.converter.IntegerStringConverter;
 import org.apache.log4j.Logger;
@@ -209,7 +208,8 @@ public class SheetController extends FieldsController {
                 List<StudentModel> studentInfoList = StudentModel.getList(cbFaculty.getValue().getCode(), cbSemester.getValue(), cbGroup.getValue());
                 int i = 1;
                 for (StudentModel studentModel : studentInfoList) {
-                    studentsList.add(new StudentsListModel(0, i++, studentModel.getFullName(), studentModel.getId(), 0, 0, 0, 0, 0));
+                    studentsList.add(new StudentsListModel(0, i++, studentModel.getNzach(), studentModel.getFullName(),
+                            studentModel.getId(), 0, 0, 0, 0, 0));
                 }
             } catch (SQLException e) {
                 e.printStackTrace();

@@ -378,6 +378,9 @@ public class CertificationExportController extends FieldsController {
                 xmlStreamWriter.writeStartElement("СписокСтудентов");
                 for (StudentsListModel studentsListModel : certificationModel.getResult()) {
                     xmlStreamWriter.writeStartElement("ДанныеСтудента");
+                    xmlStreamWriter.writeStartElement("ЗачКн");
+                    xmlStreamWriter.writeCharacters(studentsListModel.getZachKn());
+                    xmlStreamWriter.writeEndElement(); // ЗачКн
                     xmlStreamWriter.writeStartElement("ФИО");
                     xmlStreamWriter.writeCharacters(studentsListModel.getName());
                     xmlStreamWriter.writeEndElement(); // ФИО

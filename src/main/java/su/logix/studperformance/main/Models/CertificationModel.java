@@ -175,7 +175,7 @@ public class CertificationModel {
         ObservableList<StudentsListModel> list = this.getResult();
         DBConnection connection = DBConnection.getInstance();
         try (PreparedStatement pstmt = connection.getPreparedStatement("SELECT res_id, ( stud_fam || \" \" || stud_name || \" \" || IFNULL(stud_secname, '')) AS name," +
-                "stud_id,res_mark,res_practice_missed,res_practice_cor,res_lectures_missed,res_lectures_cor " +
+                "stud_id,stud_nzach,res_mark,res_practice_missed,res_practice_cor,res_lectures_missed,res_lectures_cor " +
                 "FROM result LEFT JOIN student ON res_student = stud_id " +
                 "WHERE res_certification = (SELECT cert_id FROM certification " +
                 "WHERE cert_year = ? AND cert_faculty = ? AND cert_semester = ? AND cert_group = ? AND cert_num = ? AND cert_subject = ? )")) {
@@ -183,9 +183,11 @@ public class CertificationModel {
             try (ResultSet resultSet = pstmt.executeQuery()) {
                 int counter = 1;
                 while (resultSet.next()) {
-                    list.add(new StudentsListModel(resultSet.getInt("res_id"), counter++, resultSet.getString("name"), resultSet.getInt("stud_id"),
-                            resultSet.getFloat("res_mark"), resultSet.getInt("res_practice_missed"), resultSet.getInt("res_practice_cor"),
-                            resultSet.getInt("res_lectures_missed"), resultSet.getInt("res_lectures_cor")));
+                    list.add(new StudentsListModel(resultSet.getInt("res_id"), counter++, resultSet.getString("stud_nzach"),
+                            resultSet.getString("name"), resultSet.getInt("stud_id"),
+                            resultSet.getFloat("res_mark"), resultSet.getInt("res_practice_missed"),
+                            resultSet.getInt("res_practice_cor"), resultSet.getInt("res_lectures_missed"),
+                            resultSet.getInt("res_lectures_cor")));
                 }
             }
         }

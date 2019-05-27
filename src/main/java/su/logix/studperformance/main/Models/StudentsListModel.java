@@ -13,6 +13,7 @@ import java.sql.Statement;
 public class StudentsListModel {
     private final SimpleIntegerProperty id;
     private final SimpleIntegerProperty num;
+    private final SimpleStringProperty zachKn; // for export
     private final SimpleStringProperty name;
     private final SimpleIntegerProperty studentId;
     private final SimpleFloatProperty mark;
@@ -21,9 +22,10 @@ public class StudentsListModel {
     private final SimpleIntegerProperty lecturesMissed;
     private final SimpleIntegerProperty lecturesCorrected;
 
-    public StudentsListModel(int id, int num, String name, int studentId, float mark, int practiceMissed, int practiceCorrected, int lecturesMissed, int lecturesCorrected) {
+    public StudentsListModel(int id, int num, String zachKn, String name, int studentId, float mark, int practiceMissed, int practiceCorrected, int lecturesMissed, int lecturesCorrected) {
         this.id = new SimpleIntegerProperty(id);
         this.num = new SimpleIntegerProperty(num);
+        this.zachKn = new SimpleStringProperty(zachKn);
         this.name = new SimpleStringProperty(name);
         this.studentId = new SimpleIntegerProperty(studentId);
         this.mark = new SimpleFloatProperty(mark);
@@ -85,6 +87,22 @@ public class StudentsListModel {
         this.id.set(id);
     }
 
+    public int getNum() {
+        return num.get();
+    }
+
+    public void setNum(int num) {
+        this.num.set(num);
+    }
+
+    public String getZachKn() {
+        return zachKn.get();
+    }
+
+    public void setZachKn(String zachKn) {
+        this.zachKn.set(zachKn);
+    }
+
     public String getName() {
         return name.get();
     }
@@ -139,13 +157,5 @@ public class StudentsListModel {
 
     public void setLecturesCorrected(int lecturesCorrected) {
         this.lecturesCorrected.set(lecturesCorrected);
-    }
-
-    public int getNum() {
-        return num.get();
-    }
-
-    public void setNum(int num) {
-        this.num.set(num);
     }
 }
